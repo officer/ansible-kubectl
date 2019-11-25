@@ -1,0 +1,9 @@
+---
+# tasks file for ansible-kubectl
+
+- name: "Kubectl | Install kubectl"
+  include: kubectl.yaml
+
+
+- name: "Kubectl | Install aws-iam-authenticator"
+  include: aws-iam-authenticator.yaml
